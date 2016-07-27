@@ -189,7 +189,7 @@ public class PokeMateUI extends Application implements MapComponentInitializedLi
             }
         }
         rows += "\"";
-        mapComponent.getWebview().getEngine().executeScript("document.getElementById('info-body').innerHTML = " + rows);
+        mapComponent.getWebview().getEngine().executeScript("document.getElementById('table-pokemon-body').innerHTML = " + rows);
     }
 
     private void updateItemList()
@@ -203,6 +203,6 @@ public class PokeMateUI extends Application implements MapComponentInitializedLi
             }
         }
         itemsList += "\"";
-        mapComponent.getWebview().getEngine().executeScript("document.getElementById('info-items').innerHTML = " + itemsList);
+        mapComponent.getWebview().getEngine().executeScript("document.getElementById('table-items-body').innerHTML = " + itemsList);
     }
 }

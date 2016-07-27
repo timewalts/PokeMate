@@ -2,10 +2,6 @@
             display: none;
         }
 
-        body {
-            padding-top: 50px;
-        }
-
         .container-fluid, .col-sm-3, .col-sm-9 {
             padding-right: 1px;
             padding-left: 1px;
@@ -35,5 +31,12 @@
 
         #map-canvas {
             width: 100%;
-            height: calc(100% - 0px);
+            height: calc(100% - 50px);
+        }
+
+        .navbar-noradius{
+            margin:0px;
+            border-radius:0px;
+            border:none;
+            margin-bottom:0px;
         }
